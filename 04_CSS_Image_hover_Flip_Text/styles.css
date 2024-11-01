@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 5px 10px black;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+
+.container .content {
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+}
+
+.container:hover .content {
+    transform: perspective(400px) rotateY(0deg);
+    transform-origin: left;
+}
