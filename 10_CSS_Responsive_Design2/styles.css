@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+div h1{
+    display: none;
+}
+
+
+/* Mobile screen
+@media (max-width: 500px){
+    body{
+        background-color: orangered;
+    }
+    #mobile h1{
+        display: block;
+    }
+}
+    */
+
+/* Tablet screen */
+/* @media (min-width: 501px) and (max-width: 768px){
+    body{
+        background-color: blueviolet;
+    }
+    #tablet h1{
+        display: block;
+    }
+} */
+/* laptop screen */
+/* @media (min-width: 769px) and (max-width: 1200px){
+    body{
+        background-color: green;
+    }
+    #laptop h1{
+        display: block;
+    }
+} */
+/* wide screen */
+/* @media (min-width: 1201px){
+    body{
+        background-color: teal;
+    }
+    #wide-screen h1{
+        display: block;
+    }
+}  */
